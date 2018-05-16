@@ -1,0 +1,23 @@
+.box-form{
+  width: 45vw;
+  margin: 0 auto;
+}
+.navigation-button-container{
+  text-align: center;
+  .navigation-button{
+    border: 1px solid #ffffff;
+    background: none transparent;
+    color: #ffffff;
+    /* height: 4vh; */
+    margin-top: 7vh;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    border-top-right-radius: 10% 50%;
+    border-bottom-right-radius: 10% 50%;
+    padding: 7px 20px 7px 20px;
+    font-size: 3vh;
+    font-family: $font_light;
+    outline: none;
+
+  }
+}

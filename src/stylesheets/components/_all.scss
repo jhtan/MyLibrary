@@ -1,0 +1,21 @@
+
+@import 'clock/_clock';
+
+@import 'login/header';
+@import 'login/keyboard';
+@import 'login/keyboardNumber';
+@import 'login/loginPage';
+@import 'login/message';
+@import 'login/password';
+
+@import 'dashboard/box';
+@import 'dashboard/menuType';
+@import 'dashboard/cancelButton';
+@import 'dashboard/printButton';
+
+@import 'waiting/waitingPage';
+
+@import 'error_page/header';
+@import 'error_page/box';
+
+@import 'setup/setupPages';

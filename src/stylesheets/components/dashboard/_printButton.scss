@@ -1,0 +1,7 @@
+.btn-print{
+  background-color: $btn-bg-print;
+  &:before{
+    font-size: 46px;
+    vertical-align: sub;
+  }
+}

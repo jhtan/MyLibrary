@@ -1,0 +1,7 @@
+.btn-cancel{
+  background-color: $btn-bg-cancel;
+  &:before{
+    font-size: 46px;
+    vertical-align: sub;
+  }
+}

@@ -1,0 +1,64 @@
+html, body, .body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  overflow: hidden;
+  background-color: #000;
+  background: url(../img/background-YPFB.jpg) no-repeat center bottom;
+  background-size: cover;
+  font-family: $font_light;
+}
+.display-print{display: none !important;}
+
+/* *************************** */
+/*         LAYOUT            */
+/* *************************** */
+.fp-container {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.fp-item{
+  -webkit-flex: 1 auto;
+  flex: 1 auto;
+  text-align: center;
+  align-self: stretch;
+
+  border: 1px solid white;
+}
+.avoid-clicks {
+  pointer-events: none;
+}
+.load-page{
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  display: flex;
+  .spin{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 20%;
+    background: grey url("../img/oval.svg") no-repeat center;
+  }
+}
+/* *************************** */
+/*         ERROR PAGE          */
+/* *************************** */
+.not-found{
+  color: #ffffff;
+  border: 0;
+  text-align: center;
+  display: block;
+
+  h1{font-size:16vh;}
+  h2{font-size:8vh;}
+  p{font-size:5vh;}
+  a:link, a:visited{
+    color: #ffffff;
+  }
+}

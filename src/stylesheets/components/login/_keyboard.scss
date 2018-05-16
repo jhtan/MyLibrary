@@ -1,0 +1,22 @@
+/* *************************** */
+/*           KEYBOARD          */
+/* *************************** */
+.p-teclado{
+  order: 4;
+  //height: 40vh;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+
+  border: 0;
+  .teclado{
+    width: 100%;
+    //width: $width-box;
+  }
+  .fila-teclado {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+}
