@@ -5,17 +5,5 @@ npm-debug.log*
 # WebStorm
 .idea/
 
-# Babel
-babel_cache/
-
-# Webpack
-src/static/js/bundle.js
-
-# Sass
-.sass-cache/
-src/static/css/style.css
-src/static/css/style.css.map
-.DS_Store
-
 # Emacs backups
 *~
